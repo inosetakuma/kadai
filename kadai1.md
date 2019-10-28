@@ -25,3 +25,11 @@ IMG = imresize(ORG,0.5); % 画像の縮小
 IMG2 = imresize(IMG,2,'box'); % 画像の拡大
 とする．1/4サンプリングの結果を図３に示す．
 
+<img width="365" alt="dog4" src="https://user-images.githubusercontent.com/30037928/67668211-d3895b00-f9b2-11e9-8ad6-ed88245e42b0.png">
+図3 1/4サンプリング
+
+1/8から1/32サンプリングは，
+IMG = imresize(ORG,0.5); % 画像の縮小
+IMG2 = imresize(IMG,2,'box'); % 画像の拡大
+を繰り返す．サンプリングの結果を図４～６に示す．
+
