@@ -33,3 +33,13 @@ IMG = imresize(ORG,0.5); % 画像の縮小
 IMG2 = imresize(IMG,2,'box'); % 画像の拡大
 を繰り返す．サンプリングの結果を図４～６に示す．
 
+<img width="365" alt="dog4" src="https://user-images.githubusercontent.com/30037928/67668605-9bcee300-f9b3-11e9-8b6f-b6cf2d00d558.png">
+図4 1/8サンプリング
+
+<img width="362" alt="dog5" src="https://user-images.githubusercontent.com/30037928/67668623-a5584b00-f9b3-11e9-9c32-3b3677f7b663.png">
+図5 1/16サンプリング
+
+<img width="364" alt="dog6" src="https://user-images.githubusercontent.com/30037928/67668633-ac7f5900-f9b3-11e9-9a5f-92a04d533b67.png">
+図6 1/32サンプリング
+
+このようにサンプリング幅が大きくなると，モザイク状のサンプリング歪みが発生することがわかる。
